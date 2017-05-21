@@ -1,0 +1,31 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#lista{
+	list-style-type: none;
+}
+
+.mi-lista{
+	float: right;
+}
+
+#code-girls{
+	float: left;
+}
+
+#cabecera{
+	padding: 1% 5%;
+	background-color: #BBBBBB;
+	overflow: auto;
+}
+
+li{
+	padding: 0 2%;
+}
+
+a{
+	text-decoration: none;
+}
