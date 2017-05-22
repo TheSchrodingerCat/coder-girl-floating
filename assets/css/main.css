@@ -145,7 +145,7 @@ h2{
 }
 
 #negritas{
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 #subr{
@@ -163,3 +163,15 @@ h2{
 	padding: 3% 2%;
 }
 
+/*footer*/
+
+footer{
+	padding: 3%;
+	background-color: #5E9DD8;
+	color: white;
+	font-weight: bold;
+}
+
+footer span{
+	color: #EED967;
+}
