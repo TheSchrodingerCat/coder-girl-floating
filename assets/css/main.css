@@ -2,7 +2,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', serif;
 }
 
 #lista{
@@ -42,7 +42,7 @@ a{
 	box-sizing: border-box;
 }
 
-h1{
+#inscripcion h1{
 	color: white;
 	font-size: 40px;
 	padding: 5px;
@@ -62,8 +62,12 @@ h1{
 }
 
 /*hackathon*/
-#hack{
+
+.sect{
 	margin-top: 5%;
+}
+
+#hack{
 	padding: 5%;
 	width: 100%;
 	height: 100%;
@@ -100,4 +104,62 @@ h2{
 	margin: 1% 0 2% 3%;
 }
 
+/*contacto*/
+
+#contact{
+	overflow: auto;
+}
+
+#contenedor-img{
+	float: left;
+	width: 60%;
+	box-sizing: border-box;
+	padding: 5% 0;
+}
+
+#img-contact{
+	width: 90%;
+	float: right;
+}
+
+#form{
+	float: right;
+	width: 40%;
+	box-sizing: border-box;
+	padding: 2% 5% 5% 5%;
+}
+
+#contact #form h1{
+	font-size: 40px;
+	padding: 0 10% 10% 10%;
+}
+
+#list-form li{
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.formulario{
+	padding-left: 2%;
+}
+
+#negritas{
+	font-weight: bold;
+}
+
+#subr{
+	text-decoration: underline;	
+}
+
+.dat{
+	width: 100%;
+	margin: 2% 0;
+	padding: 2%;
+	border-radius: 4px;
+}
+
+#dat-form{
+	padding: 3% 2%;
+}
 
