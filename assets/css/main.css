@@ -76,7 +76,7 @@ a{
 	box-sizing: border-box;
 }
 
-#foto-hack{
+.foto-hack{
 	background-size: cover;
 	float: left;
 	width: 50%;
@@ -86,8 +86,22 @@ a{
 	width: 100%;
 }
 
-#descripcion{
+.descripcion{
 	float: right;
+	width: 49%;
+	padding: 3% 0.5%;
+	color: black;
+	overflow: auto;
+}
+
+.foto-hack.change{
+	background-size: cover;
+	float: right;
+	width: 50%;
+}
+
+.descripcion.change{
+	float: left;
 	width: 49%;
 	padding: 3% 0.5%;
 	color: black;
@@ -99,7 +113,7 @@ h2{
 	margin-bottom: 3%;
 }
 
-#hack #descripcion p, #hackathon{
+#hack .descripcion p, #hackathon{
 	text-align: left;
 	margin: 1% 0 2% 3%;
 }
@@ -174,4 +188,9 @@ footer{
 
 footer span{
 	color: #EED967;
+}
+
+/* aparece y desaparece */
+.nothing{
+	display: none;
 }
